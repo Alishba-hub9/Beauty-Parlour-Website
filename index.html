@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Beauty Parlour Web Application</title>
+    <link rel="icon" type="image/png" href="img/favicon-img.jpg" />
+    <link rel="stylesheet" href="vendors/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="vendors/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js@1.12.0/src/toastify.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <header class="main-header" data-aos="fade-down">
+      <div class="container">
+        <nav class="navbar my-navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand logo" href="#home">
+            <span class="glamour-text">Glamour</span>
+            <span class="parlour-text">Parlour .</span>
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse navbar-toggler-content justify-content-end" id="navbarNav">
+            <ul class="navbar-nav nav-links navbar-links">
+              <li class="nav-item">
+                <a class="nav-link navbar-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-link" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="home" class="hero-section" data-aos="zoom-in-up" data-aos-delay="400">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="hero-content" data-aos="fade-right" data-aos-delay="600">
+              <h1>Enhance Your Natural Beauty</h1>
+              <p>Experience luxury beauty treatments tailored just for you. Dedicated to making you feel exquisite.</p>
+              <a href="#services" class="cta-hero-button">Explore Services</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services-section" data-aos="zoom-in-up">
+      <img src="img/flower-services-bg.png" alt="Left Decor" class="service-img left" />
+      <img src="/img/flower-services-bg.png" alt="Right Decor" class="service-img right" />
+      <div class="container">
+        <h2>Our Signature Services</h2>
+        <div class="row g-4 justify-content-center">
+          <div class="col-lg-3 col-sm-6">
+            <div class="service-card" data-aos="flip-left" data-aos-delay="300">
+              <i class="fas fa-spa icon"></i>
+              <h3>Facial Treatments</h3>
+              <p>Rejuvenating and cleansing facials for all skin types. Glow up your skin!</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="service-card" data-aos="flip-left" data-aos-delay="500">
+              <i class="fas fa-cut icon"></i>
+              <h3>Hair Styling</h3>
+              <p>From cuts and colors to blowouts and updos. Perfect hair for any occasion.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="service-card" data-aos="flip-left" data-aos-delay="700">
+              <i class="fas fa-hand-sparkles icon"></i>
+              <h3>Manicure/Pedicure</h3>
+              <p>Pamper your hands and feet with our luxury manicure and pedicure services.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-sm-6">
+            <div class="service-card" data-aos="flip-left" data-aos-delay="900">
+              <i class="fas fa-ring icon"></i>
+              <h3>Bridal Packages</h3>
+              <p>Comprehensive packages to make you shine on your most special day.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="pricing-section" data-aos="zoom-in-up">
+      <span class="triangle-left-text">Popular</span>
+      <div class="overlay"></div>
+      <div class="container">
+        <h2 class="section-title">Exclusive Salon Pricing</h2>
+        <p class="section-subtitle">Luxury treatments designed to pamper you</p>
+        <div class="pricing-row">
+          <div class="row gx-lg-3 gx-2 justify-content-center">
+            <div class="col-md-12 col-10">
+              <div class="row gy-3">
+                <div class="col-md-4">
+                  <div class="pricing-card" data-aos="flip-left" data-aos-delay="200">
+                    <h3>Classic Facial</h3>
+                    <p class="price">$75</p>
+                    <ul>
+                      <li>30 mins rejuvenation</li>
+                      <li>Cleansing & toning</li>
+                      <li>Moisturizing</li>
+                    </ul>
+                    <a href="#contact" class="btn pricing-btn">Book Now</a>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="pricing-card featured" data-aos="flip-left" data-aos-delay="500">
+                    <h3>Deluxe Manicure</h3>
+                    <p class="price">$120</p>
+                    <ul>
+                      <li>Exfoliation & massage</li>
+                      <li>Hot towel wrap</li>
+                      <li>Premium polish</li>
+                    </ul>
+                    <a href="#contact" class="btn pricing-btn">Book Now</a>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="pricing-card" data-aos="flip-left" data-aos-delay="800">
+                    <h3>Bridal Glam</h3>
+                    <p class="price">$350</p>
+                    <ul>
+                      <li>Trial session included</li>
+                      <li>Lashes & contouring</li>
+                      <li>On-site service</li>
+                    </ul>
+                    <a href="#contact" class="btn pricing-btn">Book Now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section" data-aos="zoom-in-up">
+      <div class="floating-bg">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-11">
+            <div class="row">
+              <div class="col-12">
+                <form id="contact-form" class="contact-form" data-aos="zoom-out">
+                  <div class="form-group">
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea
+                      id="message"
+                      name="message"
+                      rows="5"
+                      placeholder="How can we help you?"
+                      required
+                    ></textarea>
+                  </div>
+                  <button type="submit" class="cta-button submit-button">Send Message</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="vendors/js/bootstrap.bundle.min.js"></script>
+    <script src="vendors/js/fontawsome.js"></script>
+    <script src="vendors/js/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/toastify-js@1.12.0/src/toastify.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

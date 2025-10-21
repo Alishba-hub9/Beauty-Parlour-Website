@@ -1,0 +1,221 @@
+@media only screen and (max-width: 1260px) {
+  .hero-content h1 {
+    font-size: 47px;
+  }
+  .hero-content p {
+    font-size: 18px;
+    padding-right: 0;
+  }
+  h2 {
+    font-size: 43px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .pricing-section::before {
+    clip-path: polygon(38% 0%, 0% 100%, 100% 98%);
+  }
+}
+@media only screen and (max-width: 990px) {
+  .my-navbar .logo {
+    font-size: 35px;
+  }
+  .parlour-text {
+    font-size: 25px;
+  }
+  .navbar-toggler-content {
+    padding: 10px 0 16px 0;
+  }
+  .navbar-links {
+    gap: 0px;
+  }
+  h2 {
+    font-size: 52px;
+  }
+  .hero-content {
+    padding: 190px 25px 120px 25px;
+    text-align: center;
+  }
+  .hero-content h1 {
+    font-size: 58px;
+  }
+  .hero-content p {
+    padding: 0 140px;
+  }
+  .pricing-section {
+    padding: 75px 0;
+  }
+  .pricing-section::before {
+    clip-path: polygon(18% 10%, 0% 87%, 93% 99%);
+    width: 190px;
+    top: 5%;
+  }
+
+  .pricing-section .triangle-left-text {
+    top: 24%;
+    font-size: 20px;
+  }
+  .pricing-section .section-subtitle {
+    font-size: 18px;
+  }
+  .pricing-card {
+    padding: 30px 5px;
+    align-items: center;
+  }
+  .pricing-card h3 {
+    font-size: 28px;
+    margin-bottom: 0;
+  }
+  .pricing-card .price {
+    font-size: 35px;
+  }
+  .pricing-card ul li {
+    padding: 5px 0;
+    font-size: 14px;
+  }
+  .pricing-btn {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+
+  .contact-form {
+    padding: 20px;
+  }
+  .form-group label {
+    font-size: 18px;
+  }
+  .form-group input,
+  .form-group textarea {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  .my-navbar .logo {
+    font-size: 25px;
+  }
+  .my-navbar .parlour-text {
+    font-size: 20px;
+  }
+  .navbar-toggler {
+    padding: 0 10px;
+  }
+  .navbar-toggler-content {
+    padding: 0px 0 8px 0;
+  }
+  .navbar-link {
+    font-size: 14px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .hero-content {
+    padding: 190px 10px 120px 10px;
+  }
+  .hero-content h1 {
+    font-size: 41px;
+    margin-bottom: 15px;
+  }
+  .hero-content p {
+    padding: 0 83px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .cta-hero-button {
+    padding: 10px 15px;
+    font-size: 14px;
+  }
+  .service-card .icon {
+    font-size: 25px;
+  }
+
+  .service-card p {
+    font-size: 14px;
+  }
+  .pricing-section::before {
+    top: 0;
+    clip-path: polygon(14% 10%, 0% 78%, 95% 84%);
+    width: 140px;
+  }
+  .pricing-section .triangle-left-text {
+    top: 8%;
+    font-size: 18px;
+  }
+  .pricing-card h3 {
+    font-size: 26px;
+  }
+  .pricing-card .price {
+    font-size: 28px;
+  }
+  .form-group label {
+    font-size: 16px;
+  }
+  .form-group input,
+  .form-group textarea {
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  h2 {
+    font-size: 25px;
+    margin-bottom: 35px;
+  }
+  .hero-section {
+    background: linear-gradient(
+        to right,
+        #ebd9d9 0%,
+        rgba(255, 192, 203, 0.8) 25% 25%,
+        rgba(255, 255, 255, 0.5) 46%,
+        rgba(255, 255, 255, 0.1) 53%,
+        transparent 100%
+      ),
+      url(/img/home-bg-img.jpg) no-repeat center center / cover;
+  }
+
+  .hero-content h1 {
+    font-size: 34px;
+    margin-bottom: 10px;
+  }
+  .hero-content p {
+    padding: 0 20px;
+  }
+  .cta-hero-button {
+    padding: 10px;
+  }
+  .pricing-section,
+  .contact-section {
+    padding: 60px 0;
+  }
+  .pricing-section::before,
+  .pricing-section .triangle-left-text {
+    display: none;
+  }
+  .pricing-section .section-subtitle {
+    font-size: 14px;
+  }
+  .pricing-card h3 {
+    font-size: 26px;
+    margin-bottom: 0;
+  }
+  .pricing-card .price {
+    font-size: 24px;
+  }
+
+  .pricing-btn {
+    padding: 8px 15px;
+  }
+  .contact-section {
+    padding-bottom: 10px;
+  }
+  .form-group {
+    margin-bottom: 12px;
+  }
+  .form-group label {
+    font-size: 14px;
+  }
+  .submit-button {
+    padding: 10px 0;
+    font-size: 14px;
+    letter-spacing: 0px;
+  }
+}
