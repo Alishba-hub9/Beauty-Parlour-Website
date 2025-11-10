@@ -248,7 +248,8 @@
   .pricing-section .triangle-left-text {
     display: none;
   }
-  .section-subtitle {
+  .section-subtitle,
+  .pricing-section .section-subtitle {
     font-size: 14px;
   }
   .pricing-card h3 {
